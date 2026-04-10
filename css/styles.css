@@ -525,7 +525,7 @@ a {
     pointer-events: none;
 }
 
-.backdrop .is-open {
+.backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -572,6 +572,10 @@ a {
     fill: #fff;
 }
 
+.modal-field {
+    margin-bottom: 8px;
+}
+
 .modal-title {
     font-weight: 500;
     font-size: 16px;
@@ -593,8 +597,7 @@ a {
 }
 
 .modal-input-wrapper {
-    position: relative;
-    margin-bottom: 8px;
+    position: relative;    
 }
 
 
@@ -648,8 +651,11 @@ a {
     color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-checkbox-field {
-    margin-top: 16px;
+.modal-comment-field {
+    margin-bottom: 16px;
+}
+
+.modal-checkbox-field {    
     display: flex;
     align-items: center;    
     margin-bottom: 24px;
