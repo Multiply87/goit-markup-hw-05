@@ -438,8 +438,7 @@ a {
 }
 
 .social {
-    width: 208px;
-    margin-right: 80px;
+    width: 208px;    
 }
 
 .footer-text-div {
@@ -597,6 +596,10 @@ a {
     margin-bottom: 8px;
 }
 
+.modal-input-wrapper:last-child {
+    margin-bottom: 16px;
+}
+
 .modal-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -608,6 +611,7 @@ a {
 
 .modal-input:hover, .modal-input:focus {
     border-color: #4d5ae5;
+    outline: none;
 }
 
 .modal-input:hover+.modal-icon, .modal-input:focus+.modal-icon {
@@ -639,6 +643,7 @@ a {
 
 .modal-textarea:hover, .modal-textarea:focus {
     border-color: #4d5ae5;
+    outline: none;
 }
 
 .modal-textarea::placeholder {
