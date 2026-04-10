@@ -475,6 +475,7 @@ a {
 
 .subscribe-input:active, .subscribe-input:hover, .subscribe-input:focus {
     border-color: #31d0aa;
+    outline: none;
 }
 
 .subscribe-input::placeholder {
