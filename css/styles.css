@@ -404,9 +404,13 @@ a {
     justify-content: space-between;
 }
 
+.footer-info {
+    display: flex;
+    gap: 120px;
+}
+
 .footer-content {
     max-width: 264px;
-    
 }
 
 .footer-logo {
